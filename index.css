@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: border-box;
+}
+
+body{
+    background-image: url('Imagenes/Pastasbackground');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: black;
+    color: orangered;
+    text-align: center;
+    padding: 20px 0;
+    font-size: x-large;
+}
+
+.navbar{
+    margin-top: 20px;
+}
+
+main{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.variedades{
+    background-color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.pasta{
+    flex: 1 1 200px;
+    margin: 10px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    animation: flex-end;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.pasta a{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.tallarines {
+    background-image: url('Imagenes/tallarines.jpeg');
+ }
+
+ .noquis{
+    background-image: url('Imagenes/noqui2.jpg');
+ }
+
+ .ravioles{
+    background-image: url('Imagenes/ravioles.jpg');
+ }
+
+ .canelones{
+    background-image: url('Imagenes/canelones.avif');
+ }
+
+ .lasagna{
+    background-image: url('Imagenes/lasagna.jpeg');
+ }
+
+ footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+ }
+
+ .info{
+    margin-bottom: 20px;
+ }
+
+ .social-icon img{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+
+
+
+
