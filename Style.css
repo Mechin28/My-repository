@@ -20,13 +20,23 @@ body {
     font-style: normal;
   }
   
-header {
+.header-index {
     background-color: rgba(0, 0, 0, 0.8);
-    color: orangered;
+    color: white;
     text-align: center;
     padding: 20px 0;
     font-size:larger;
     font-family: "Satisfy", cursive;
+}
+
+.header-reservas{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size:larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .navbar {
