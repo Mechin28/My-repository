@@ -41,10 +41,10 @@ main {
 footer {
     background-color: rgba(0, 0, 0, 0.8);
     padding: 20px 10px;  
-    width: 84%;
+    width: 68%;
     height: 75%;
     margin-top: 20px;
-    margin-left: 8%;  
+    margin-left: 16%;  
 }
 
 .social-icon {
