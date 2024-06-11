@@ -1,91 +1,61 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Gourmet</title>
-    <link rel="icon" href="imagenes/pastas.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+    <meta name="Portada" content="Inicio de mi página">
+    <meta name="keywords" content="HTML,comida, restaurant, pastas">
+    <link rel="stylesheet" href="estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
-    <header class="header-index">
-        <h2>Al dente Amore</h2>
-    </header>
-    
-<br>
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container fluid">
-            <a class="navbar-brand" href="menu.html">
-                <button type="button" class="btn btn-dark">Menú</button></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-level="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <div class="container">
+        <header>
+            <nav>
+                <h1>
+                    <a href="#" class="logo animate__animated animate__flipInX">Al Dente Amore</a>
+                </h1>
                 <br>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">            
-                        <a class="navbar-link" href="reservas.html">
-                        <button type="button" class="btn btn-success">Reservas</button></a>
-                    </li>
-                    <li class="nav-item">
-                        
-                    </li>
+                <ul>
+                    <li><a href="historia.html">Historia del Resto</a></li>
+                    <li><a href="menu.html">Menú</a></li>
+
+                    
                 </ul>
-            </div>
-        </div>
-    </nav> 
-
-    <main class="historia container mt-4">
-        <h4>Breve Historia de Nosotros:</h4>
+            </nav>
+        </header>
         <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum interdum sagittis. Maecenas sit amet ligula eget nisl placerat vestibulum. Praesent ac placerat dolor. Duis vitae justo suscipit, rhoncus massa eu, tincidunt justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras iaculis eros sed convallis ornare. Nullam tincidunt nulla ac elit gravida, vel faucibus diam viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque blandit odio sagittis, malesuada nisi eu, semper erat. Morbi vitae neque sit amet tortor convallis pharetra malesuada et odio. Suspendisse vitae luctus felis. In scelerisque magna sit amet tempus scelerisque.</p>
-        <br>
-        <p>Nulla facilisi. Vivamus in congue nulla, ac luctus urna. In tortor purus, sagittis at risus non, convallis varius lectus. Quisque lobortis arcu eget risus gravida, ac iaculis dolor congue. Pellentesque aliquam dolor odio, eu maximus eros dignissim non. Donec sit amet ornare quam. In mauris mi, maximus ut tempor eu, mollis quis velit. Duis tempus, eros ac viverra semper, nulla ligula vestibulum neque, vel porta ante risus vitae arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-    </main>
+        <div class="main-screen">
+            <div class="row">
+                <div class="col-30 m-9">
+                    <h3>Comida italiana</h3>
+                    <h2 class="py-4">Con el mejor sabor</h2>
+                 
 
-<footer>
-    <main class="container mt-4">
-        <div class="bg-dark text-light p-4 rounded">
-            <h4>Restaurant de Pastas Gourmet:</h4>
-            <div class="d-flex flex-wrap justify-content-between">
-                <div class="recipe-card">
-                    <a href="#">
-                        <img src="imagenes/canelones.avif" alt="Receta 1" class="img-fluid">
-                        <div class="recipe-info">Canelones rellenos de ricota y espinaca</div>
-                    </a>
+                    <div class="row p-20">
+                        <div class="col">
+                            <br>
+                        </div>
+                        <div class="col-8">
+                            <div>
+                                <a href="reservar.html" class="btn btn-cta shadow">
+                                    RESERVAR
+                                    
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="recipe-card">
-                    <a href="#">
-                        <img src="imagenes/lasagna.jpeg" alt="Receta 2" class="img-fluid">
-                        <div class="recipe-info">Lasagna bolognesa</div>
-                    </a>
-                </div>
-                <div class="recipe-card">
-                    <a href="#">
-                        <img src="imagenes/noqui2.jpg" alt="Receta 3" class="img-fluid">
-                        <div class="recipe-info">Ñoquis de papa con salsa 3 quesos</div>
-                    </a>
-                </div>
-                <div class="recipe-card">
-                    <a href="#">
-                        <img src="imagenes/ravioles.jpg" alt="Receta 4" class="img-fluid">
-                        <div class="recipe-info">Ravioles negros rellenos de salmón</div>
-                    </a>
-                </div>
-                <div class="recipe-card">
-                    <a href="#">
-                        <img src="imagenes/tallarines.jpeg" alt="Receta 5" class="img-fluid">
-                        <div class="recipe-info">Spaghetti con salsa carbonara</div>
-                    </a>
+
+                <div class="col-70">
+                    <img src="pictures/pastasbackground.jpg" width="100%" alt="">
                 </div>
             </div>
         </div>
-    </main>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </div>
 </body>
 </html>
