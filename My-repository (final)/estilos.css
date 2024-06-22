@@ -1,0 +1,197 @@
+.background {
+    background-color: black;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.logo {
+    color: white;
+    font-family: "Satisfy", cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    animation: logoAnimation 5s;
+}
+
+.logo :hover {
+    text-decoration: none !important;
+
+}
+
+.menu-button {
+    color: white;
+    border-radius: 50px;
+    padding: 20px 30px;
+    font-weight: bolder;
+}
+
+.menu-button:hover {
+    color: black;
+    background-color: white;
+}
+
+.menu-button-inverted {
+    font-weight: bolder;
+    color: black;
+    background-color: white;
+    border-color: white;
+    border-radius: 50px;
+    padding: 20px 30px;
+}
+
+.menu-button-inverted:hover {
+    color: white;
+    border-color: white;
+    background-color: black;
+}
+
+.white-font {
+    color: white;
+}
+
+.bolder-font {
+    font-weight: bolder;
+}
+
+.lighter-font {
+    font-weight: lighter;
+}
+
+
+@keyframes borderAnimation {
+    0% {
+        border-color: white;
+    }
+    50% {
+        border-color: rgb(231, 111, 19);
+    }
+    100% {
+        border-color: white;
+    }
+}
+
+.history-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background: url(pictures/pastasbackground.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: white;
+}
+
+.history {
+    border-radius: 20px;
+    box-shadow: 0 2px 10px 0 rgb(0, 0, 0);
+    background-color: #212529;
+    border: 2px solid white;
+    padding: 20px;
+    max-width: 800px;
+    margin: 10px;
+    text-align: center;
+    animation: borderAnimation 3s infinite;
+}
+
+.history-footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 150px;
+    margin-bottom: 2%;
+    width: 100%;
+    align-content: center;
+}
+
+.back-btn {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    min-height: 40px;
+}
+
+.back-btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.menu-page {
+    background-color: black;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.menu-container {
+    border-radius: 20px;
+    background-color: #212529;
+}
+
+
+.recipe-img {
+    width: 100%;
+    height: 280px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px 0 rgb(0, 0, 0);
+    margin: 0;
+    object-fit: cover;
+}
+
+.recipe-img:hover {
+    transform: scale(1.1);
+}
+
+.recipe-info {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 0.9em;
+    color: white;
+    text-align: center;
+    width: 180px;
+    max-height: 50px;
+}
+
+.test-img {
+    padding: 0;
+    border: 0;
+    background-color: #212529;
+}
+
+.test-img:hover {
+    transform: scale(1.1);
+}
+
+.custom-overlay {
+    align-content: end;
+    padding: 0 !important;
+}
+
+.custom-card-text {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.card-text {
+    margin-left: 2.5%;
+    width: 95%;
+}
+
+.social-img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-text{
+    color: white;
+}
+
+.reserv-logo{
+    margin-left: 1%;
+}
